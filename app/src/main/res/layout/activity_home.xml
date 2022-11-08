@@ -10,11 +10,12 @@
     <TextView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Marwan Hadid \n 3260200117"
+        android:text="Marwan Hadid \n 32602000117"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="34dp"
         android:textStyle="bold"
+        android:background="@color/material_dynamic_neutral90"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -4,7 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/material_dynamic_secondary90"
     tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="390dp"
+        android:layout_height="203dp"
+        android:text="\n \n \nSelamat Datang"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="32dp" />
 
     <EditText
         android:id="@+id/edt_email"
